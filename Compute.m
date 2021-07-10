@@ -1,9 +1,4 @@
-## Copyright (C) 2021 khyati
-##
-## This program is free software: you can redistribute it and/or modify
-## it under the terms of the GNU General Public License as published by
-## the Free Software Foundation, either version 3 of the License, or
-## (at your option) any later version.
+## Copyright (C) 2021 KayJey
 ##
 ## This program is distributed in the hope that it will be useful,
 ## but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -15,14 +10,15 @@
 
 ## -*- texinfo -*-
 ## @deftypefn {} {@var{retval} =} Compute (@var{input1}, @var{input2})
-##
+## 
 ## @seealso{}
 ## @end deftypefn
 
 ## Author: khyati <khyati@GHOSTRAY>
 ## Created: 2021-07-08
 
-function J = Compute (X,y,teta)
+function J = Compute (X,y,teta) 
+# Compute the cost function using X , Y  (mx1) each ; data lists and teta is (nx1) of n tetas..
   
   m=length(y)
   J=0;
